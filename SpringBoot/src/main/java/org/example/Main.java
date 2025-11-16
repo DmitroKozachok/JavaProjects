@@ -1,14 +1,11 @@
 package org.example;
 
 
-import org.example.entities.UserEntity;
-import org.example.repository.IUserRepository;
+import org.example.repositories.IUserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import java.util.NoSuchElementException;
 
 @SpringBootApplication
 public class Main {
